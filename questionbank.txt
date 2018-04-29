@@ -1,0 +1,720 @@
+OW::A stack is a linear list of elements for which all insertions and deletions are made at only at the _____ of the list?::top::Stacks::Chapter 5,6::XYZ::4/6
+OW::What is the class that all other classes extend from?::object::OO Programming:: inheritance:: ZA::4/6
+OW::What is a has a relationship called?::composition::OO Programming::appendix d::ZA::4/6
+OW::What is another word for an is a relationship?::inheritance::OO Programming::appendix d::ZA::4/6
+TF::Constructors are inherited::False::OO Programming::appendix d::ZA::4/6
+TF::A subclass cannot invoke a superclass's private methods::True::OO Programming::appendix d::ZA::4/6
+TF::<T>, not T, can be a data type of data fields, method parameters, and local variables::False::Generics::interlude 1::ZA::4/6
+TF::In the line "OrderedPair<String> aPair=new OrderedPair<String>("apple","banana");" the second <String> is required::False::Generics::interlude 1::ZA::4/6
+OW::______ add stability to your code by making more of your bugs detectable at compile time::Generics::Generics::oracle website::ZA::4/6
+MC::You cannot use the > operator to compare generic objects. To fix the problem, use a type parameter bounded by the _______ interface: a)Comparable<T> b) Equal<T> c)Compare<T>::a::Generics::oracle website::ZA::4/6
+TF::Constructors can be generic in both generic and non-generic classes::True::Generics::oracle website::ZA::4/6
+MC::for(){for(){for(){if(){...}}}} has a Big O of: a)n^1 b)n^2 c)n^3 d)n^4::c::Complexity & Efficiency::Chapter 4::ZA::4/6
+MC::The memory an algorithm needs to execute is called its _________ complexity: a) memory b) area c) time d) space::d::Complexity & Efficiency::Chapter 4::ZA::4/6
+MC::An algorithm's _______ operation is the most significant contributor to its total time requirement: a)basic b)total c)initial d)final ::a::Complexity & Efficiency::Chapter 4::ZA::4/6
+MC::Select the worst case Big O: a) n^2 b) 2^n c)nlog(n) d)n^17 ::b::Complexity & Efficiency::Chapter 4::ZA::4/6
+TF::Some algorithms do not have a best or worst case::true::Complexity & Efficiency::Chapter 4::ZA::4/6
+MC::The List interface provides ____ method(s) for positional (indexed) access to list elements: a) One b) Two c) Three d) Four::d::Lists::docs.oracle.com::ZA::4/23
+TF::The List interface provides a special iterator, called a ListIterator, that allows element insertion and replacement: T/F::True::Lists::docs.oracle.com::ZA::4/23
+TF::The size, isEmpty, get, set, iterator, and listIterator operations run in constant time: T/F::True::Lists::docs.oracle.com::ZA::4/23
+TF:: If multiple threads access a linked list concurrently, and at least one of the threads modifies the list structurally, it must not be synchronized externally:T/F::False::Lists::docs.oracle.com::ZA::4/23
+OW::The ______ and poll() methods remove and return the head of the queue.::remove()::Lists::docs.oracle.com::ZA::4/23
+OW::An occasional and elegant alternative to complex iteration is _____::recursion::Recursion::Chapter 7::ZA::4/23
+TF::Recursion is a problem solving process that breaks a problem into identical but smaller problems: T/F::True::Recursion::Chapter 7::ZA::4/23
+MC::A recursive method uses _____ memory than an iterative method, in general: a) more b) less::b::Recursion::Chapter 7::ZA::4/23
+MC::_____ recursion occurs when the last action performed in a recursive call is a recursive call: a)tail b)end c)conclusive d)final::a::Recursion::chapter 7::ZA::4/23
+OW::A recursive algorithm that does not call itself directly is called _______ recursion::mutual::recursion::chapter 7::ZA::4/23
+OW::The Set interface places additional stipulations, beyond those inherited from the __________ interface::Collection::Bags & Sets::docs.oracle.com::ZA::4/23
+TF::The behavior of a set is specified if the value of an object is changed in a manner that affects equals comparisons while the object is an element in the set.::False::Bags & Sets::docs.oracle.com::ZA::4/23
+MC::The method isEmpty is not really needed for bags. It is considered a _______ method: a) comfort b) quick c) convenience d) wasted::c::Bags & Sets::chapter 1::ZA::4/23
+TF::A bag cannot contain objects of a parent class and objects of that parent's child class at the same time: T/F::False::Bags & Sets::chapter 1::ZA::4/23
+MC::A set can contain how many null elements?: a)One b)Two c)Three d)As many as needed::a::Bags & Sets::chapter 1::ZA::4/23
+TF::The sorted list can be given an indew at which to place an entry::False::Sorted List::chapter 16::ZA::4/24
+OW::The ADT sorted ____ can add, remove, or locate an entry, given the entry as an arguement::list::Sorted List::chapter 16::ZA::4/24
+OW::The ADT sorted list compares its entries to determine their _____::order::Sorted List::chapter 16::ZA::4/24
+TF::Creating a sorted list from an unsorted list is redundant: T/F::True::Sorted List::Sorted List::ZA::4/24
+MC::A sorted list can be made from a(n): a)ArrayList b)LinkedList c)Vector d)All options are valid::d::Sorted List::chapter 16::ZA::4/24
+MC::Iterators can: a)prevent 1-off errors b)Encapsulate lists c)standardize iteration d) all choices are valid::d::Binary Search/Iterators::class notes::ZA::4/24
+TF::Binary search has an average Big O of O(logn): T/F::True::Binary Search/Iterators::class notes::ZA::4/24
+TF::Recursion doesn't make sense for a binary search: T/F::False::Binary Search/Iterators::class notes::ZA::4/24
+OW::Placing the list in a(n) ______ class allows for direct access to private variables::inner::Binary Search/Iterators::class notes::ZA::4/24
+OW::______ list makes the most sense for a binary search list::array::Binary Search/Iterators::class notes::ZA::4/24
+OW::Sorting is usually ______ based::index::Sorting::class notes::ZA::4/24
+TF::The best sorts for big data are Merge, Quick, and Radix: T/F::True::Sorting::class notes::ZA::4/24
+TF::The best sorts for small data are Selection, Shell, and Merge:T/F::False::Sorting::class notes::ZA::4/24
+MC::__________ data makes sure that the data is ready to be sorted: a) postprocessing b) preprocessing c) preinspecting::b::Sorting::class notes::ZA::4/24
+MC:: _______ is used by java to sort objects a)merge sort b)shell sort c)radix sort::a::Sorting::class notes::ZA::4/24
+TF::Stacks automate memory management: T/F::True::Stacks & Queues::class notes::ZA::4/24
+OW::Java uses ______s for method attributes:T/F::Parameters::Stacks & Queues::class notes::ZA::4/24
+MC::The offer method inserts an element if possible, otherwise returning _____: a)the index b)false c)-1::b::Stacks & Queues::docs.oracle.com::ZA::4/24
+TF::Queue implementations generally have to define element-based versions of methods equals and hashCode::False::Stacks & Queues::docs.oracle.com::ZA::4/24
+MC::The stack class extends the class _____: a)ArrayList b)LinkedList c)Vector::c::Stacks & Queues::docs.oracle.com::ZA::4/24
+MC::In a hash table, a successful search for an entry searches the same chain that was searched when the entry was first added: T/F::True::Assoc arrays / Hashing::chapter 22::ZA::4/29
+MC::The _____ factor is the number of entries divided by the number of locations in the hash table: a) time b) load c) efficiency::b::Assoc arrays / Hashing::chapter 22::ZA::4/29
+OW::_________ hashing allows a hashtable to grow or shrink in size without the expense of rehashing::Dynamic::Assoc arrays / Hashing::chapter 22::ZA::4/29
+TF::Associative arrays tend to be unsorted: T/F::True::Assoc arrays / Hashing::class notes::ZA::4/29
+OW::Keys in hash tables cannot be _____::null::Assoc arrays / Hashing::class notes::ZA::4/29
+TF::The height of a tree is the number of levels in a tree: T/F::True::Trees::chapter 23::ZA::4/29
+OW::The path between the tree's root and any other ____ is unique::node::Trees::chapter 23::ZA::4/29
+TF::A complete tree is also a full tree: T/F::false::Trees::chapter 23::ZA::4/29
+MC::Visiting the node means processing the ____ in the node: a)node b)class c)data::c::Trees::chapter 23::ZA::4/29
+MC::a ________ traversal visits the root before visiting each of the root's subtrees, then we visit the entire left tree before the right: a) preorder b) inorder c)post order::a::Trees::chapter 23::ZA::4/29
+MC::To add a new entry to a heap, you begin at the ____ available position for a leaf: a)first b)last c)any d)next::d::Heaps / balanced search trees::chapter26::ZA::4/29
+OW::To remove a heap's root, you have to replace the root with the heap's last _____: a)root b)leaf c)null::b::Heaps / balanced search trees::chapter 26::ZA::4/29
+OW::Heaps are created more efficiently with the method ______() than the method add()::reheap::Heaps / balanced search trees::chapter26::ZA::4/29
+TF::One single or double rotation is during addition of an entry will not restore balance of an AVL tree: T/F::False::Heaps / balanced search trees::Chapter27::ZA::4/29
+TF::A 2-4 tree is completely balanced: T/F::True::Heaps / balanced search trees::chapter 27::ZA::4/29
+OW::A _____ between two vertices is a sequence of edges::path::Graphs::Chapter 28::ZA::4/29
+OW::A digraph is also known as a ______::digraph::Graphs::Chapter 28::ZA::4/29
+OW::Values on a weighted graph are often called ______(s) or costs::weights::Graphs::Chapter 28::ZA::4/29
+MC::______-first traversal visits a vertex and all its neighbors before advancing: a) depth b) breadth c) south::b::Graphs::chapter 28::ZA::4/29
+TF::In an unweighted graph, the longest path between the two given vertices has the shortest length: T/F::False::Graphs::Chapter 28::ZA::4/29
+TF::you can write your own interface::t::OO Programming::java interface::VFT::4/6
+TF::A class can be derived from several classes ::F::OO Programming::extending an interfaces::VFT::4/6
+MC::hiding the details of a class can also be referd to as :: encapsulation ::a) abstraction b)inheritance c)encapsulation d) relationship::OO Programming::encapsulation:VFT::4/6
+MC::a statement of truth about some aspect of a programs logic :::assertion ::a)precondition b)postcondition c)responsibilty d) assertion::OO Programming::specifying methods:VFT::4/6
+TF::All letters inclusing small case letters can be used as placed holders for generic classes ::F::Generics::wothin interfaces::VFT::4/6
+TF::generic classes can have only generic methods ::F::Generics::wothin interfaces::VFT::4/6
+TF::generic classes can have only generic methods ::F::Generics::wothin interfaces::VFT::4/6 
+OW::What is another name for a getter method?::accessor::OOP::Inheritance::KPN::4/7
+MC::When should you extend a class? a) When modifying the parent class's members in a subclass b) When adding class members c) When overloading methods d) All of the above::d::OOP::Inheritance::KPN::4/7
+TF::It is okay to use the "this" keyword in a static method.::F::OOP::Inheritance::KPN::4/7
+OW::What keyword would you use to refer to the members of the superclass?::super::OOP::Inheritance::KPN::4/7
+MC::What is the purpose of a constructor? a) Comparing two or more values together b) Initalize the instance of a class c) Define the class's structure d) Sort the information in the class::b::OOP::Constructors::KPN::4/7
+OW::The process where a compiler will recognize a generic arbitrary character and replace it with byte code containing the actual type is called _____.::erasure::Generics::Type Parameters::KPN::4/7
+TF::The method compareTo can compare primitives as well as reference variables::T::Generics::Comparing generic types::KPN::4/7
+MC::When implementing a wildcard what character would you use to define it? a) ! b) W c) T d) ?::d::Generics::Wildcards::KPN::4/7
+TF::You are only able to use a wildcard in a class declaration::F::Generics::Wildcards::KPN::4/7
+TF::In a method header the type parameter in the < > is placed before the return type::T::Generics::Generic Methods::KPN::4/7
+OW::When dealing with generic reference types while comparing you need to implement the _____ interface::Comparable::Generics::Comparable::KPN::4/7
+OW:: A______ is an object that hlds a group of objects::collection::Bags::bag collection::VFT::4/6
+TF::bags can be finite or infinite ::F::Bags::Bags::VFT::4/6
+TF::both specified and unspecified objects can be removed froma bag ::T::Bags::Bags::VFT::4/6
+OW:: A bag that does not contain duplicate is called____::set::Bags::ADT set::VFT::4/6
+TF::link list is an is an implementation of an ADT within a programming language ::T::Bags::Bags::VFT::4/6
+TF::the vector class implements the interface List::T:: List::List ADT::VFT::4/6
+TF::the method "public T[] toArray()" is NOT and example of a ADT List methods::F:: List::List ADT::VFT::4/6
+MC::what is the default capacity of an arrayList  ::a)10 b)20 c)21 d) 50 ::List :: a ::: List ADT::VFT::4/6
+TF::both Link list and array list allow automatic memory allocation::T:: List::List ADT::VFT::4/6
+TF::Link list and array list both have a time complexicity of O(1)::F:: List::List ADT::VFT::4/6
+MC::____ data types is used by operating systems to manage recursion a)stacks b)array c)Queue d) Tree ::a ::: recursion :: List ADT::VFT::4/6
+OW:: A geometric figure that can be generated recursively is called _____::fractal::Recursion::fractal::FVT::4/10
+TF::A fractal at level three had two iteration of the pattern applied:: F:: Recursion::fractal::FVT::4/10
+MC:: A_____is needed to terminate recursion a) recursive step b) break statement c) void return type d) base case :: d ::: recursion :: recursion::VFT::4/6
+TF::recursive calls uses less memory than iterative calls::F:: Recursion::Recursion::VFT::4/6
+TF::binary search and linear search ONLY applies to sorted collections::F::linear search::linear search algorithm::VFT::4/10
+TF:: Binary search is faster on a link chain than an array::F::binary search::binary search::VFT::4/10
+TF:: Linear search ALgorithm searches each element in an array sequentailly::T::linear search::linear search algorithm::VFT::4/10
+TF:: Linear search ALgorithm has a Big O of O(Logn)::F::Binary search::Binary search algorithm::VFT::4/10
+MC:: which of the following is an example of a searching algorithm a) recursive binary search b) recursive linear search  c) binary search d) all of the above:: d :: searching:: Big O summary::VFT::4/10
+MC::which of the following is a notation used to represent time complexicity a)Big Oh b)Big Theta c)Big Omega d) all of the above:: d ::Complexity & Efficiency::Types of Notations for Time Complexity::VFT::4/10
+TF::Java has a higher time complexity as compared to C++ ::T::Complexity & Efficiency::running time of a program::VFT::4/6
+TF:: both selection sort and insertion has a run time of O(N^2) ::T::sorting::efficiency of insertion sort::VFT::4/10
+TF:: an algorithm that has an O(n) run time is said to have a constant run time  ::F::Efficiency::big O notation::VFT::4/10
+TF:: an algorithm can have a run time of O(N^8) ::T::Efficiency::big O notation::VFT::4/10
+MC::the method getPosition returns ____ if the specifeid position is empty for a sorted list a)null b)-1 c)error d)none of the above :: b ::sortedList::sortedList:: VFT::4/6
+TF:: the choice of Sorting Algorithm affects only the run time and the memory of the program::T::sorting::sorting algorithm::VFT::4/10
+MC:: Which of the following sorting algorithm involves splitting arrays into equalized-sized subarrays a)none of the below b)merge sort c)selection sort d)radix sort :: b ::sorting::merge sort:: VFT::4/6OW::A stack is a linear list of elements for which all insertions and deletions are made at only at the _____ of the list?::top::Stacks::Chapter 5,6::XYZ::4/6
+OW::What is the class that all other classes extend from?::object::OO Programming::inheritance::ZA::4/6
+TF::you can write your own interface::t::OO Programming::java interface::VFT::4/6
+TF::A class can be derived from several classes ::F::OO Programming::extending an interfaces::VFT::4/6
+MC::hiding the details of a class can also be referd to as::encapsulation ::a) abstraction b)inheritance c)encapsulation d) relationship::OO Programming::encapsulation:VFT::4/6
+MC::a statement of truth about some aspect of a programs logic :::assertion ::a)precondition b)postcondition c)responsibilty d) assertion::OO Programming::specifying methods:VFT::4/6
+TF::All letters inclusing small case letters can be used as placed holders for generic classes ::F::Generics::wothin interfaces::VFT::4/6
+TF::generic classes can have only generic methods ::F::Generics::wothin interfaces::VFT::4/6
+TF::generic classes can have only generic methods ::F::Generics::wothin interfaces::VFT::4/6 
+OW::What is another name for a getter method?::accesser::OOP::Inheritance::KPN::4/7
+MC::When should you extend a class? a) When modifying the parent class's members in a subclass b) When adding class members c) When overloading methods d) All of the above::d::OOP::Inheritance::KPN::4/7
+TF::It is okay to use the "this" keyword in a static method.::F::OOP::Inheritance::KPN::4/7
+OW::What keyword would you use to refer to the members of the superclass?::super::OOP::Inheritance::KPN::4/7
+MC::What is the purpose of a constructor? a) Comparing two or more values together b) Initalize the instance of a class c) Define the class's structure d) Sort the information in the class::b::OOP::Constructors::KPN::4/7
+OW::The process where a compiler will recognize a generic arbitrary character and replace it with byte code containing the actual type is called _____.::erasure::Generics::Type Parameters::KPN::4/7
+TF::The method compareTo can compare primitives as well as reference variables::T::Generics::Comparing generic types::KPN::4/7
+MC::When implementing a wildcard what character would you use to define it? a) ! b) W c) T d) ?::d::Generics::Wildcards::KPN::4/7
+TF::You are only able to use a wildcard in a class declaration::F::Generics::Wildcards::KPN::4/7
+TF::In a method header the type parameter in the < > is placed before the return type::T::Generics::Generic Methods::KPN::4/7
+OW::When dealing with generic reference types while comparing you need to implement the _____ interface::Comparable::Generics::Comparable::KPN::4/7
+OW::A______ is an object that hlds a group of objects::collection::Bags::bag collection::VFT::4/6
+TF::bags can be finite or infinite ::F::Bags::Bags::VFT::4/6
+TF::both specified and unspecified objects can be removed froma bag ::T::Bags::Bags::VFT::4/6
+OW::A bag that does not contain duplicate is called____::set::Bags::ADT set::VFT::4/6
+TF::link list is an is an implementation of an ADT within a programming language ::T::Bags::Bags::VFT::4/6
+TF::the vector class implements the interface List::T::List::List ADT::VFT::4/6
+TF::the method "public T[] toArray()" is NOT and example of a ADT List methods::F::List::List ADT::VFT::4/6
+MC::what is the default capacity of an arrayList  ::a)10 b)20 c)21 d) 50 ::List::a :::List ADT::VFT::4/6
+TF::both Link list and array list allow automatic memory allocation::T::List::List ADT::VFT::4/6
+TF::Link list and array list both have a time complexicity of O(1)::F::List::List ADT::VFT::4/6
+MC::____ data types is used by operating systems to manage recursion a)stacks b)array c)Queue d) Tree ::a :::recursion::List ADT::VFT::4/6
+OW::A geometric figure that can be generated recursively is called _____::fractal::Recursion::fractal::FVT::4/10
+TF::A fractal at level three had two iteration of the pattern applied::F::Recursion::fractal::FVT::4/10
+MC::A_____is needed to terminate recursion a) recursive step b) break statement c) void return type d) base case::d :::recursion::recursion::VFT::4/6
+TF::recursive calls uses less memory than iterative calls::F::Recursion::Recursion::VFT::4/6
+TF::binary search and linear search ONLY applies to sorted collections::F::linear search::linear search algorithm::VFT::4/10
+TF::Binary search is faster on a link chain than an array::F::binary search::binary search::VFT::4/10
+TF::Linear search ALgorithm searches each element in an array sequentailly::T::linear search::linear search algorithm::VFT::4/10
+TF::Linear search ALgorithm has a Big O of O(Logn)::F::Binary search::Binary search algorithm::VFT::4/10
+MC::which of the following is an example of a searching algorithm a) recursive binary search b) recursive linear search  c) binary search d) all of the above::d::searching::Big O summary::VFT::4/10
+MC::which of the following is a notation used to represent time complexicity a)Big Oh b)Big Theta c)Big Omega d) all of the above::d ::Complexity & Efficiency::Types of Notations for Time Complexity::VFT::4/10
+TF::Java has a higher time complexity as compared to C++ ::T::Complexity & Efficiency::running time of a program::VFT::4/6
+TF::both selection sort and insertion has a run time of O(N^2) ::T::sorting::efficiency of insertion sort::VFT::4/10
+TF::an algorithm that has an O(n) run time is said to have a constant run time  ::F::Efficiency::big O notation::VFT::4/10
+TF::an algorithm can have a run time of O(N^8) ::T::Efficiency::big O notation::VFT::4/10
+MC::the method getPosition returns ____ if the specifeid position is empty for a sorted list a)null b)-1 c)error d)none of the above::b ::sortedList::sortedList::VFT::4/6
+TF::the choice of Sorting Algorithm affects only the run time and the memory of the program::T::sorting::sorting algorithm::VFT::4/10
+MC::Which of the following sorting algorithm involves splitting arrays into equalized-sized subarrays a)none of the below b)merge sort c)selection sort d)radix sort::b ::sorting::merge sort::VFT::4/6
+TF::An is-a relationship is an example of composition::F::OO Programming::Inheritance::JL::4/10
+TF::A has-a relationship is an example of inheritance::F::OO Programming::Composition::JL::4/10
+MC::A class containing an abstract method is known as an _________ class a)abstract b)concrete c)super d)none of the above::a::OO Programming::Polymorhpism::JL::4/10
+OW::Interfaces that have only one method are known as ___________ interfaces::functional::OO Programming::Interfaces::JL::4/10
+MC::Every object in a subclass is also a part of that class's ________ class a)abstract b)super c)child d)none of the above::b::OO Programming::Inheritance::JL::4/10
+TF::A generic method can be overloaded with a method with different parameters::T::Generics::Overloading::JL::4/10
+OW::The compareTo method can be used by classes that implement the generic interface ________::Comparable::Generics::Generic Methods::JL::4/10
+MC::A type __________ is an identifier that specifies a generic type name a) boolean b) generic c) parameter d)none of the above::c::Generics::Generic Methods::JL::4/10
+TF::Generic methods can be used to overload other generic methods::T::Generics::Overloading::JL::4/10
+MC::The Number Class is the superclass of the ________ Class a)Integer b)Double c)all of the above d)none of the above::c::Generics::Generic Classes::JL::4/10
+TF::A time complexity of O(1) is the best case scenario::T::Complexity & Efficiency::Big O::JL::4/10
+TF::A time complexity of O(n!) is faster than a time complexity of O(N^2)::F::Complexity & Efficiency::Big O::JL::4/10
+MC::A time complexity of O(n) has a _________ run time a)constant b)logarithmic c)linear d)none of the above::c::Complexity & Efficiency::Big O::JL::4/10
+OW::The worst case of O(_) searches the array sequentially until it reaches the last element::n::Complexity & Efficiency::Big O::JL::4/10
+OW::The quadratic search algorithm runs in O(n^_)::2::Complexity & Efficiency::Big O::JL::4/10
+TF::Entries in a list are ordered::T::Lists::ADT List::JL::4/10
+MC::The List ADT add(T newEntry) adds to the ______ position of the list a)last b)first c)unspecified d)all of the above::a::Lists::ADT List::JL::4/10
+TF::ArrayList allows for random access::T::Lists::ArrayList::JL::4/10
+TF::LinkedList allows for random access::F::Lists::LinkedList::JL::4/10
+OW::The first node of a LinkedList is called the ________ a)front b)head c)leading node d)all of the above::d::Lists::LinkedList::JL::4/10
+MC::A recursive method calls itself _______ via another method a)directly b)indirectly c)all of the above d)none of the above::c::Recursion::Recursion::JL::4/10
+OW::A pattern that is geometrically generated repeatedly through recursion is known as a __________::fractal::Recursion::Fractals::JL::4/10
+TF::If a problem can be solved recursively, it can also be solved iteratively::T::Recursion::Recursion::JL::4/10
+MC::Recursion uses a __________ statement a)selection b)base c)counter d)none of the above::a::Recursion::Recursion::JL::4/10
+MC::Iteration uses a __________ statement a)selection b)repetition c)all of the above d)none of the above::b::Recursion::Recursion::JL::4/10
+TF::An ADT bag may contain duplicate entries::T::Bags & Sets::ADT Bag::JL::4/10
+MC::Which one of these options would NOT be suitable for a bag? a)letters in the alphabet b)class rankings c)coins d)both a&b::d::Bags & Sets::Bags::JL::4/10
+MC::In the ADT Bag, add(newEntry) returns a a)boolean b)integer c)T d)none of the above::a::Bags & Sets::ADT Bag::JL::4/10
+TF::When adding an object into a bag, it is possible to specify the position of where it will be placed::F::Bags & Sets::ADT Bag::JL::4/10
+TF::An ADT set may contain duplicate entries::F::Bags & Sets::ADT Sets::JL::4/10
+TF::The ADT SortedList contains the method replace(givenPosition)::F::SortedList::ADT SortedList::JL::4/10
+MC::The ADT SortedList method has a time complexity of O(1) for the method ___________ in both the array and linked implmentations a)clear() b)getLength() c)isEmpty() d)all of the above::d::SortedList::ADT SortedList::JL::4/10
+TF::The method remove(anEntry T) in the ADT SortedList returns a boolean::T::SortedList::ADT SortedList::JL::4/10
+TF::You must specify the position in an ADT SortedList when adding an entry::F::SortedList::ADT SortedList::JL::4/10
+MC::The method getPosition(T anEntry) in an ADT SortedList returns an _______ a)double b)string c)int d)none of the above::c::SortedList::ADT SortedList::JL::4/10
+TF::An iterator allows you to traverse a collection of data::T::Binary Search/Iterators::Iterators::JL::4/10
+MC::The iterator interface contains the methods remove, next, and ________ a)hasNext b)get c)all of the above d)none of the above::a::Binary Search / Iterators::Iterators::JL::4/10
+MC::Binary Search uses a ______________ algorithm a)divide & conquer b)sequential c)iterative d)none of the above::a::Binary Search / Iterators::Binary Search::JL::4/10
+TF::A binary search is more effective when the list is sorted::T::Binary Search / Iterators::Binary Search::JL::4/10
+OW::The worst case time complexity for a binary search in a sorted list is O(_) a)1 b)n c)logn d)n^2::c::Binary Search / Iterators::Binary Search::JL::4/10
+TF::Radix sort looks at a position in the string and repeatedly sorts them into 1 of 10 buckets::T::Sorting::Radix Sort::JL::4/10
+MC::Which one of these is NOT a sorting algorithm? a)bubble b)shell c)quick d)fast::d::Sorting::Sorting::JL::4/10
+TF::Quick sort works best with small data::F::Sorting::Quick Sort::JL::4/10
+OW::Selection sort, insertion sort, and shell are suited for sorting _____ data::small::Sorting::An Introduction to Sorting::JL::4/10
+MC::Merge sort, quick sort, and radix sort are suited for sorting _____ data a)big b)small c)all d)both a&b::a::Sorting::Faster Sorting Methods::JL::4/10
+OW::The method _____() removes an element from a stack::pop::Stacks & Queues::Stacks::JL::4/10
+OW::The method _____() adds an element to a stack::push::Stacks & Queues::Stacks::JL::4/10
+TF::Stacks are first in, last out::T::Stacks & Queues::Stacks::JL::4/10
+TF::Queues are first in, first out::T::Stacks & Queues::Queues::JL::4/10
+MC::The method _______(T anEntry) adds an element to a queue a)push b)pop c)enqueue d)dequeue::c::Stacks & Queues::Queues::JL::4/10
+OW::_________ occurs when you try to map a value to an occupied index within a hash table::collision::Assoc arrays / Hashing::Hashing::JL::4/10
+MC::The method hashCode() returns an _____ a)string b)int c)primitive type d)none of the above::b::Assoc arrays / Hashing::Hashing::JL::4/10
+TF::The index of an associative array is called the key::T::Assoc arrays / Hashing::Assoc Arrays::JL::4/10
+TF::Hash Tables are typically sorted::F::Assoc arrays / Hashing::Assoc Arrays::JL::4/10
+MC::A _______ makes for a more unique hash a)bread b)token c)pepper d)salt::d::Assoc arrays / Hashing::Hashing::JL::4/10
+TF::The topmost level of a tree is called the root::T::Trees::Tree Concepts::JL::4/10
+MC::A binary tree's node has at most ____ children a)one b)two c)three d)four::b::Trees::Tree Concepts::JL::4/10
+MC::In a _________ traversal, the root is visited before visiting the subtrees a)preoder b)inorder c)postorder d)none of the above::a::Trees::Traversals of a Binary Tree::JL::4/10
+TF::A binary search tree's nodes contain Comparable objects::T::Trees::Binary Search Trees::JL::4/10
+OW::Each node within a binary search tree is the _____ of a binary search tree::root::Trees::Binary Search Trees::JL::4/10
+MC::In a _________, the node's value is greater than or equal to its descendants a)maxheap b)minheap c)midheap d)none of the above::a::Heaps / balanced search trees::Heaps::JL::4/10
+MC::In a _________, the node's value is less than or equal to its descendants a)maxheap b)minheap c)midheap d)none of the above::b::Heaps / balanced search trees::Heaps::JL::4/10
+TF::The AVL tree is a binary search tree that will rearrange its nodes whenever a node is added or removed::T::Heaps / balanced search trees::AVL Trees::JL::4/10
+OW::A tree can rebalance itself through a process known as __________::rotation::Heaps / balanced search trees::AVL Trees::JL::4/10
+MC::A 2-node is a node that contains two children and ______ data object a)one b)two c)three d)all of the above::a::Heaps / balanced search trees::2-3 Trees::JL::4/10
+OW::A collection of unique vertices and unique edges is known as a ______::graph::Graphs::Terminology::JL::4/10
+MC::The path from one vertex to another is called a sequence of ______ a)edges b)cost c)weights d)none of the above::a::Graphs::Terminology::JL::4/10
+TF::Depth-first traversal traverses a path within a graph as deep as possible before visiting other paths::T::Graphs::Depth-First Traversal::JL::4/10
+TF::Breadth-first traversal visits every neighboring vertex before visiting the neighboring neighbors::T::Graphs::Breadth-First Traversal::JL::4/10
+OW::A directed graph that doesn't have any cycles forces an order on its vertices known as a ________ order::topological::Graphs::Topological Order::JL::4/11
+MC::What is the shorthand for accounting for the exponential magnitude of algorithms? a) Time Complexity b) Big-O c) Exponential Growth d) Huge-M::b::Efficiency::Big-O::KPN::4/13
+OW::What is the Big-O of a linked list?::O(n)::Efficiency::Big-O::KPN::4/13
+TF::The most time consuming growth rate function is 2^n::F::Efficiency::Big-O::KPN::4/13
+TF::We would use the Greek symbol Sigma to describe the best case for an algorithm::F::Efficiency::Best Case::KPN::4/13
+OW::What is the Big-O of a quadratic?::O(n^2)::Efficiency::Big-O::KPN::4/13
+MC::What is a list? a) A group of data b) A finite sequence of data c) Linked nodes of data d) Pieces of information::b::List ADT::Lists::KPN::4/13
+TF::A LinkedList is able to use random access::F::ListADT::Linked Lists::KPN::4/13
+OW::What is the default capacity of an ArrayList?::10::ListADT::Array Lists::KPN::4/13
+TF::In a LinkedList each value refers to the next value in the list.::T::ListADT::Linked Lists::KPN::4/13
+MC::A benefit of having a LinkedList is: a) Dynamic memory allocation; only as much as is needed per entry b) Frees unneeded memory upon node removal; no need to re-size the structure c) No movement of existing data when adding or removing entries d) All of the above::d::ListADT::Linked Lists::KPN::4/13
+TF::The best practice  to seperating interface names is to use comma:: false ::OO Programming::appendix d:: DS::4/15
+OW::Classes that do not explicitly extend a class will extend what by default? :: Object::OO Programming :: extend :: DS :: 4/15
+MC:: which one can be consider a Method action  A. mutator, B. change values, C. super, D. all of the above :: B :: OO Programming :: types :: DS:: 4/15
+TF::setting method can also be known as accesser:: False :: OO Programming :: intheritance :: DS :: 4/15 
+TF::inheritance  is the only class that allow all other classes to be extended :: False ::OO Programming :: appendix d :: DS:: 4/15
+OW::A statement that describes the condition or conditions that must be true before a method begins execution is called a ____::precondition::OO Programming::Method specification::DLL::04/06
+OW::If a method cannot satisfy its postcondition, you can account for this by having your program throw a ____::exception::OO Programming::Method specification::DLL::04/06
+TF::An assertion statement that is not met will, by default, cause your program to not compile or run correctly.::f::OO Programming::Method specification::DLL::04/06
+TF::When writing an interface, it is good practice to have data fields that can be modified.::f::OO Programming::Java interfaces::DLL::04/06
+TF::An class that implements an interface must implement all methods defined by that interface, but may implement methods not defined in the interface as well.::t::OO Programming::Java interfaces::DLL::04/06
+TF::When referring to the generic parameter within a class that is using such, you must refer to it in brackets (i.e. <T>).::f::Generics::Generic data types::DLL::04/06
+MC::In Java 8 (or higher), you are declaring an object named theGeneric of type GenericClass, with the intent that the generic, in this case, be the String class. The constructor of GenericClass takes no arguments. Which of the following is the correct way of doing this?  (a) GenericClass theGeneric = new GenericClass<String>();  (b) GenericClass<String> theGeneric = new GenericClass(); (c) GenericClass theGeneric = new GenericClass(String); (d) GenericClass<String> theGeneric = new Generic Class(new String());::b::Generics::Generic data types::DLL::04/06
+TF::It is possible to pass an instance of a class that does not implement Comparable to the compareTo method of another class that does implement Comparable.::f::Generics::interface Comparable::DLL::04/06
+TF::If a class implements a compareTo method, that class must be implementing Comparable.::f::Generics::interface Comparable::DLL::04/06
+OW::A generic type parameter that has been restricted to only allow certain classes and their children is called ____::bounded::Generics::Bounded type parameters::DLL::04/06
+TF::A program that consists of only a few lines of code is always efficient.::f::Complexity & efficiency::Efficiency as a concept::DLL::04/06
+MC::Which of the following are important when considering the best algorithm to use? (a) time the algorithm takes to run (b) space used on disk (c) amount of effort it would take to implement the algorithm (d) all of the above::d::Complexity & efficiency::Efficiency as a concept::DLL::04/06
+TF::The time requirements of an algorithm will always depend on the specific data values given to them as well as the number of those values.::f::Complexity & efficiency::Measuring efficiency::DLL::04/06
+MC::There is an ADT whose time complexity for its operations does not depend on how the ADT was implemented (i.e. whether it was implemented with an array or a linked list). This ADT is (a) a bag (b) a stack (c) a queue (d) a tree::a::Complexity & efficiency::Efficiency of ADT implementations::DLL::04/06
+OW::The most efficient Big Oh is O(___). (Use actual Big Oh notation, no spaces.)::1::Complexity & efficiency::Big Oh notation::DLL::04/06
+MC::What determines the order of the objects in a list? (a) The sort implemented by the list (b) The method called to add them to the list (c) Nothing, it's completely random (d) None of the above::b::Lists::List ADT specifications::DLL::04/06
+TF::The type of objects contained in a list is determined when the list object is declared.::t::Lists::Using lists::DLL::04/06
+OW::When writing constructors for a list, it is important to make sure that, in some way, a newly-declared list has a set value for its ____.::capacity::Lists::Implementing lists::DLL::04/06
+OW::The time complexity of adding to the end of an array-based list depends on whether or not the array needs to be ____. (Hint: it's a verb.)::resized::Lists::Implementing lists::DLL::04/06
+OW::In order to increase the size of an array-based list, you need to ____ the entries currently in the list.::copy::Lists::Implementing lists::DLL::04/06
+TF::When writing a recursive function, including a base case is sufficient to prevent infinite recursion::f::Recursion::Recursion as a concept::DLL::04/06
+TF::Recursive functions may, but do not have to, contain loops.::t::Recursion::Recursion as a concept::DLL::04/06
+TF::A recursive function's activation record is not handled by the program stack the same way as a non-recursive function's record.::f::Recursion::Understanding how recursive functions work::DLL::04/06
+TF::A recursive function produces more activation records than an interative function. Because of this, a recursive function is more memory-intensive.::t::Recursion::Understanding how recursive functions work::DLL::04/06
+OW::If running your program results in infinite recursion, the program stack is adversely affected. This is specifically called stack ____.::overflow::Recursion::Understanding how recursive functions work::DLL::04/06
+MC::A completely unordered ADT from which you cannot specify any specific item to be withdrawn is called (a) a stack (b) a queue (c) a list (d) a bag::d::Bags & sets::Bags as a concept::DLL::04/06
+TF::The bag ADT can only be implemented in Java.::f::Bags & sets::Bags as a concept::DLL::04/06
+TF::The classes dingBag and dapBag both implement BagInterface. You can assume that calling the clear() function of a dingBag object will have basically the same effect as calling the clear() function of a dapBag object.::t::Bags & sets::Bags as a concept::DLL::04/06
+TF::When implementing the bag ADT, you should check that the object is initialized in every function you write.::f::Bags & sets::Implementing bags::DLL::04/06
+OW::Though the bag ADT is characterized by the fact that withdrawing from the bag is random, there are still two functions that need to be able to search the bag. One of these is the version of remove() that removes a specified entry; the other is _____(). (Hint: the method you are looking for does not modify the contents of bag.)::contains::Bags & sets::Implementing bags::DLL::04/06
+OW::The SortedList ADT is similar to the list ADT in that they have many of the same methods. One way in which they differ is that the SortedList does not allow you to add or replace an entry based on ____.::position::SortedList::SortedList ADT specifications::DLL::04/06
+OW::Since a SortedList object compares its entries, a SortedList cannot contain a ____ value.::null::SortedList::SortedList ADT specifications::DLL::04/06
+OW::You can remove an object from a SortedList based on what? (a) Its position (b) Its value (c) Both a and b (d) Neither a or b::c::SortedList::SortedList ADT specifications::DLL::04/06
+TF::In order to add clarity to your SortedList implementation, you can directly rename the functions you are implementing, even when you are extending the SortedList interface. This is often done with the remove() functions. (In other words, instead of implementing remove(anEntry), you'd implement removeEntry(anEntry).)::f::SortedList::SortedList ADT specifications::DLL::04/06
+TF::A SortedList object is always sorted in ascending order.::f::SortedList::SortedList ADT specifications::DLL::04/06
+OW::An iterator ____ a collection of data. (Hint: it's a verb.)::traverses::Binary Search / Iterators::Iterators as a concept::DLL::04/06
+TF::When implementing the Iterator interface, the remove function is not required to actually remove anything from the collection the iterator is traversing.::t::Binary Search / Iterators::The Iterator interface::DLL::04/06
+MC::A ListIterator is different from an Iterator because it can (a) refer to previous as well as next (b) check the index of its collection (c) can modify the contents of its collection (d) all of the above::d::Binary Search / Iterators::The Iterator interface::DLL::04/06
+TF::An iterator can work with any ADT; this is sometimes handled by implementing a separate class iterator.::t::Binary Search / Iterators::Iterator implementation::DLL::04/14
+OW::When defining an iterator within an implementation of an ADT, your class should implement the interface ____.::Iterable::Binary Search / Iterators::Inner class Iterators::DLL::04/14
+MC::The time efficiency of a selection sort is (a) O(n^2) (b) O(n) (c) O(1) (d) O(2N)::a::Sorting::Selection sort::DLL::04/14
+TF::The best-case time efficiency for an insertion sort is O(n).::t::Sorting::Insertion sort::DLL::04/14
+MC::One of the reasons merge sorts have a time efficiency of O(n log n) is (a) the amount of swapping of entries necessary (b) the temporary array merge sort requires (c) the time it takes to find the midpoint (d) none of these, merge sort is not O(n log n)::b::Sorting::Merge sort::DLL::04/14
+OW::Any sort that does not change the relative order of objects that are equal is considered to be a _____ sort.::stable::Sorting::Sorting as a concept::DLL::04/14
+OW::The time efficiency of a quick sort depends on the sort's choice of ____.::pivots::Sorting::Quick sort::DLL::04/14
+TF::In a stack ADT, the most recently-added item is at the 'bottom'.::f::Stacks & Queues::Specifications of the ADT stack::DLL::04/16
+MC::When implementing a stack using an array, the top entry should be (a) in the first location of the array (b) in the last occupied location of the array (c) at the midpoint of the array (d) none of these::b::Stacks & Queues::Array-based implementation of stacks::DLL::04/16
+TF::In a queue ADT, the most recently-added item is at the 'front'.::t::Stacks & Queues::The ADT Queue::DLL::04/16
+MC::Which of the following is a possible way to handle trying to get an object from an empty stack or queue? (a) throw an exception (b) return null (c) set a precondition that only allows such methods to run when the stack/queue is not empty (d) all of these::d::Stacks & Queues::Stack/Queue ADT::DLL::04/16
+MC::The deque ADT, because of how it allows you to access its objects, is most similar to the ADT (a) queue (b) stack (c) list (d) bag::b::Stacks & Queues::The ADT Deque::DLL::04/16
+MC::The ADT dictionary's key-value pairs are organized by (a) the order in which they were added (b) key (c) value (d) none of these, it's random::b::Assoc arrays / hashing::Specifications for the ADT dictionary::DLL::04/16
+TF::It is not possible to traverse a dictionary.::f::Assoc arrays / hashing::Specifications for the ADT dictionary::DLL::04/16
+TF::In a dictionary, a key's associated value may not be null.::t::Assoc arrays / hashing::Specifications for the ADT dictionary::DLL::04/16
+OW::A perfect hash function has no _____. (Hint: What's a common issue with hash tables?)::collisions::Assoc arrays / hashing::Hashing defined::DLL::04/16
+TF::If you execute a program that produces a hash twice, the hash will be the same both times.::f::Assoc arrays / hashing::Hash functions::DLL::04/16
+OW::The only node in a tree ADT that has no parent is the ____.::root::Trees::Tree concepts::DLL::04/16
+TF::Trees are allowed to be empty.::t::Trees::Tree concepts::DLL::04/16
+TF::It is possible to have a height-0 tree.::t::Trees::Tree concepts::DLL::04/16
+OW::Each non-leaf node in a binary tree has exactly ___ children. (Spell it out!)::two::Trees::Tree concepts::DLL::04/16
+TF::A level-order traversal of a binary tree is a depth-first traversal.::f::Trees::Traversals of a tree::DLL::04/16
+MC::Typical graphs are (a) sparse (b) dense (c) neither of these, these terms don't apply to graphs::a::Graphs::Graph terminology::DLL::04/16
+OW::Every instance of the ____ ADT is a graph.::tree::Graphs::Graph terminology::DLL::04/16
+TF::The order of visitation in a breadth-first traversal of a graph depends in part on the graph's implementation.::t::Graphs::Graph traversals::DLL::04/16
+TF::In a directed graph without cycles, if there is a directed edge that runs from vertex p to vertex q, q is considered to precede p in the graph's topological order.::f::Graphs::Topological order::DLL::04/16
+OW::What would be called a node in other ADTs is, in a graph, called a ______.::vertex::Graphs::Graph terminology::DLL::04/16
+OW:: Generics in Java are not inherited by what? :: subclasses :: Generics :: subtype :: DS :: 4/17 
+TF:: wildcards cannot be used to relate generic classes or interfaces :: False :: Generics :: subtype :: DS :: 4/17
+TF:: Upper Subtypes can be used to relax restrictions on a variable:: false  :: Generics :: bound :: DS :: 4/17
+MC:: wildcards can be used to relate,  A.generic classes  B. interfaces  C. lower bound  D. A and B  E. all of the above :: D :: Generics :: subtype :: DS :: 4/17
+OW::faster than the above n processing algorithms; above a certain threshold of n, more efficiently handles data is what ? :: logarithmic :: CE ::bigO :: DS ::4/18
+TF:: Algorithmic complexity is formally a matter of how well an algorithm scales with more classes.:: False :: CE :: time ::DS :: 4/18 MC:: Iterating by half of i, the iteration counter i diminishes as i/2, i/4, i/8, i/16, until A. i/2^n B. i <= 1  C.both AB  D. 2^n  :: C :: CE :: worst best :: DS:: 4/18
+TF:: The first node is also called the front, head or tail::  False :: Lists:: node:: DS :: 4/18
+OW:: The first node is also called the front, head or what ::  leading node :: Lists :: node :: DS :: 4/18
+MC::Node's methods  _____ and  ______pertain to the current node and can only be applied to a specific node. A.class B.private C. getData() and setData D. All :: C:: Lists :: node :: DS :: 4/18
+TF::Linked list are not used in java Tree concept::F:: Tree::Tree concept::VFT::4/18
+MC:: A node that has at most two children is referred to as _____a) tree leave b) level node tree c)binary tree d) any of the above :: c :: Tree::Tree concept::VFT::4/18
+OW:: The _____ of a tree is the number of levels of the tree::height::Tree::Tree terminology::FVT::4/18
+TF::Binary trees do not have random access::T :: Tree:: Traversal of binary Tree::VFT::4/18
+MC:: which of the following is an example of level-order traversal a) breath-first traversal b) depth-first traversal c)deep-first traversal d) all of the above :: a :: Tree:: Traversal of binary Tree::VFT::4/18
+TF::Hash codes can be generated by casting::T :: Hash:: Hash functions::VFT::4/18
+OW:: The process of deviding long search keys into several pieces is called_____::folding::Hash::Hash function::FVT::4/18
+MC:: Open location in a dictionary is refered to as____ a) Null b) empty() c)probing  d) retrievals :: c ::Hash::Hash function::FVT::4/18
+TF::A hash table must be completely filled to prevent collision::F::Hash::Hash function::FVT::4/18
+TF::Double hashing prevent both primary and secondary clustering::T::Hash::Double Hashing::FVT::4/18
+MC:: which of the following is Not a stack operation a) push b) peek() c)pull  d) pop :: c ::Stack:: Stack operation::FVT::4/18
+TF::The pop operation removes an item from the Top of the stack::T ::Stack:: Stack operation::FVT::4/18
+TF::puch or pop has and efficiency of O(N)::F ::Stack:: Stack operation::FVT::4/18
+TF::A queue may be implemented to have a bounded capacity. ::T ::Queue:: overflow state::FVT::4/18
+OW:: the operation of removing item from a queue in call_____::dequeue::Queue::queue operations::FVT::4/18
+TF::the average and worst case complexity of a Bubble sort are thesame ::T ::Bubble sort:: Bubble sort complexity::FVT::4/18
+TF::the time complexity for Merge Sort is thesame for cases/scenario ::T ::Merge sort:: Merge sort complexity::FVT::4/18
+MC:: which of the following is is an example of a sort type a) stable sort b) heap sort c)comparison sort  d) all of the above:: d ::sort:: sorting types::FVT::4/18
+MC:: which sorting type Divides each sort key into its individual digits a) radix sort b) merge sort c)quick sort  d) all of the above:: A ::sort:: sorting types::FVT::4/18
+MC:: which is part of Recursion types A. gets  B. sets  C.Indirect: method chain such that: A calls B, B calls C, and C calls A. D. none of the above :: C:: Recursion :: types :: DS :: 4/18
+TF::A recurrence relation is comprised of five cases:: False :: Recursion:: time :: DS :: 4/18
+TF:: In mathematics a recurrence relation occurs when a function T() occurs on both sides of the = sign. A recurrence relation describes the recursion and is solved to determine the time complexity of algorithm T(n). ::  True :: Recursion:: time:: DS :: 4/18 
+OW:: Describe data and methods is part of what :: implementing a bag ::B&S :: class :: DS :: 4/18 
+TF:: A method getFrequency() counts the occurrences of a particular value in the linked data and returns that number. ::  True :: B&S:: data:: DS :: 4/18 
+TF::method contains() checks to see if a particular value exists::  True :: B&S:: data:: DS :: 4/18 
+MC::As a matter of security, a class having an array should be declared A. return  B. final C. null D.none  :: B ::B&S :: class :: DS :: 4/18 
+TF::Certain methods could be altered or declared protected so that only the child class would have access :: True :: SL:: list:: DS :: 4/19 
+OW::If starting with an unsorted list, it may not be efficient to create sorted list for the sake of improving other sorts later on which is a? :: Drawbacks :: SL:: list:: DS :: 4/19 
+TF::The methods of SortedList ADT are almost the same as for Bags ADT::False:: SL:: list:: DS :: 4/19 
+OW:: is Immediately get the max, min and median (if array based) part of Benefits of a Sorted List or Bags Set? :: Benefits:: list:: DS :: 4/19
+OW:: A _______is an ordered sequence. ::sorted list :: SL:: list:: DS :: 4/19 	
+OW::The algorithm compares the target _____ to the value of the median element of an array.::  value  :: Binary::  Search:: DS :: 4/19 
+OW :: A binary search relies on a what? :: sorted list :: Binary:: Search:: DS :: 4/19 
+TF:: it is ineffective to use a binary search on a soft list :: False :: Binary::  Search:: DS :: 4/19 
+OW:: To get the middle item of a _____you must traverse the chain to that point.:: linked chain :: Binary::  Search:: DS :: 4/19 
+TF:: the minimal cost path between two vertices in a weighted graph is the path with the least total path cost over all possible paths between the vertices ::T:: graphs::minimal cost::VFT::4/20 
+TF:: The Graph interface supports directed and undirected unweighted graphs and makes no assumptions about the underlying representation of the graph ::T:: graphs::directed and undirected unweighted graphs::VFT::4/20 
+TF:: Breath First Search naturally uses a queue to store vertices yet to be visited ::T:: graphs::Breath First Search::VFT::4/20 
+TF:: The adjacency matrix representation stores an entry for every possibleedge in a graph ::T:: graphs::adjacency matrix::VFT::4/20
+TF::the average number of comparisons performed by the sequential search on an array of n/2 elements is n/4::T:: searching algorithm::Searching efficeincy::VFT::4/20 
+TF::the maximum number of comparisons performed by the sequential search on an array of n elements is n ::F:: searching algorithm::Searching efficeincy::VFT::4/20 
+MC:: hell sort is also described as a sequence of what insertion sorts? A. interleaved  B. elements C. graph D.trees :: A :: Sorting :: insert:: DS:: 4/21 
+OW:: Shell sort is an improvement on the insertion sort based on the observation that an insertion sort of an almost sorted array is nearly what?:: O(n)::Sorting :: insert:: DS:: 4/21 
+OW:: While you can have the queue dynamically increase to _____such an exception, as the textbook authors advocate, the point of the circular imposition may then be lost. :: avoid  :: Queues:: circular:: DS :: 4/21 
+TF :: here are other reasons for increasing the size of the queue, such as accommodating a certain number of data values over a certain period of time. :: True::  Queues:: circular:: DS :: 4/21
+TF::Disadvantage of stacks: Can access a variable from outside its local scope or after function exits. :: False :: Stacks ::  scope :: DS:: 4/21
+MC:: Unlike queues, dequeues and stacks, the priority queue should not have a A.sorted array B.null entry C.Bimary D.List :: B::  Queues:: circular:: DS :: 4/21 .
+TF:: sorting table is a more efficient implementation of a dictionary than a linked list or array :: False :: Arrays :: hashing:: DS :: 4/22
+TF:: graph is part of Attributes of associative arrays :: False :: Arrays :: hashing:: DS :: 4/22
+OW::Associative arrays are referred to as dictionaries and maps and augmented by _____::  hash tables :: Arrays :: hashing:: DS :: 4/22
+OW:: _____in the structure are organized (paired) with a key or keyword, the name dictionary is appropriate. :: values :: Arrays :: hashing:: DS :: 4/22
+OW::he relationship between _____ is non-linear or indirect :: nodes :: trees ::data :: DS:: 4/22
+OW::A tree is a data structure with _______ order:: hierarchical :: trees ::data :: DS:: 4/22
+OW::Two trees are __________if they can be mapped one-to-one to each other and preserve the relationships of their parent-child nodes::isomorphic :: trees ::data :: DS:: 4/22
+TF:: Incomplete  means both nodes of at least one sub-tree extend to the last level :: False :: trees :: binary :: DS:: 4/22
+TF::A BST is sorted by definition :: True:: BST :: tree :: DS :: 4/22
+TF:: Minheap is object in node greater than or equal to its descendant objects:: False :: BST :: tree :: DS :: 4/22
+TF:: The add method of the BST deals with duplicate entries relative to the root node by using these rules:: True ::  BST :: tree :: DS :: 4/22
+OW::  the max heap has its greatest valued object as ______, its descendants relate accordingly :: root ::  BST :: heaps :: DS :: 4/22
+TF::longest  path graphs can be weighted or unweighted :: False :: graph :: vertices:: DS:: 4/22
+OW::A path from one vertice to another in a graph has a length that depends on _____and nodes :: edges  :: graph :: vertices:: DS:: 4/22
+TF::A graph data structure is a collection of distinct vertices (trees), connected by lines referred to as edges or arcs.:: False :: graph :: vertices:: DS:: 4/22
+MC::_______ may be associated with labels and numeric values. A. trees and roots B. sorted list C, Vertices and edges D. all the above :: C  :: graph :: vertices:: DS:: 4/22
+TF::A recurrence relation is comprised of a general case and a base case.::T::Recursion::Recurrence Relation::KPN::4/25
+OW::What word describes a method calling itself?::Recursion::Recursion::Recursion::KPN::4/25
+MC::What does indirect recursion look like? a) A calls B, B calls C, and C calls A b) A calls B and B calls A c) A calls B and B calls B d) The method calls itself::b::Recursion::Indirect Recursion::KPN::4/25
+TF::In a direct recursive method the method can call a separate method.::F::Recursion::Direct Recursion::KPN::4/25
+TF::Some recursive methods are unable to be written iteratively::F::Recursion::Iteration::KPN::4/25
+TF::A bag may contain multiple occurences of an element::F::ADT Bag::Bags::KPN::4/25
+OW::In the add method for a bag you should use a ____ return type::boolean::ADT Bag::Bags::KPN::4/25
+MC::The worst case for an ADT Bag is ____. a) O(1) b) O(n) c) O(n^2) d) O(2^n)::b::ADT Bag::Big-O::KPN::4/25
+OW::What method is used in the constructor when a child class extends the parent class?::super()::OOP::Inheritance::DV::4/6
+TF::You don't need to override every method when implementing an interface.::F::OOP::Interfaces::DV::4/6
+TF::In an abstract class you can declare methods, but you can't define a method::T::OOP::Classes::DV::4/6
+MC::The instanceof operator can be applied to: A) objects of the same class B) primitives C) Both A and B D)None of the Above::A::OOP::Comparing::DV:4/6
+TF::To write a file, you need to declare a FileWriter variable and use the method write()::T::OOP::FileIO::DV::4/26
+TF::When declaring a generic method: public static <T> void method(parameters); The variable inside the < > can only be the letter T?::F::Generics::Methods::DV::4/26
+OW::What is the symbol for the wildcard in generics?::?::Generics::WildCard::DV::4/26
+MC::Which is the correct way to extend the comparable class? A) class<T> extends Comparable B) class<T extends Comparable<? super T> C) Both::B::Generics::Comparing::DV::4/26
+OW::public static void methodName(ClassName<? extends class> objectName) is an example of _______ bound wildcards::Upper::Generics::UpperBound::DV::4/26
+OW::Java uses generics, in C++ they have ______ which is similar to generics in Java.::templates::Generics::C++::DV::4/26
+MC::What is the worste case of a quick sort? A) O(n^3) B)O(n log n) C) O(n^2)::B::Time Complexity::Big-O::DV::4/26
+TF::The best case for traversing an array of elements is O(1)::T::Time Complexity::Big-O::DV::4/26
+OW::Statments * inputs is an example of _______ which is a factor in algorithmic performance::Problem Size::Time Complexity::Algorithm::DV::4/26
+TF::Worst case is lower-bound and best case is upper-bound::F::Time Complexity::Big-O::DV::4/26
+OW::Which is the slowest of the Big-O?:: A) O(2^n) B) O(n) C) O(n log n) D) O(n!)::D::Time Complexity::Big-O::DV::4/26
+TF::If not specified, the default size for an ArrayList is 25::F::Lists::ArrayList::DV::4/26
+TF::Is this correct to instantiate an ArrayList: ArrayList abc = new ArrayList();::F::Lists::ArrayList::DV::4/26
+OW::LinkedLists requires traversal of the list to find a certain item, which means it has no ______ access::random::Lists::LinkedList::DV::4/26
+MC::What are the benefits of LinkedList? A)No need for re-sizing B)Random Access C)Both A and B D)None of the above::A::Lists::LinkedList::DV:4/26
+OW::This method is called to see if the LinkedList has any nodes::isEmpty()::Lists::LinkedList::DV::4/26
+TF::Recursion is elegant for us, but not elegant for the computer::T::Recursion::Recursion::DV::4/26
+OW::The end of a recursion is called _____ case::base::Recursion::Rules of Recursion::DV::4/26
+MC::A direct recursion type is when: A)The method calls itself B) A method calls another method C) A method ends::A::Recursion::Types::DV::4/26
+TF::Recursion is useful to traverse linked-nodes::T::Recursion::Traversal::DV::4/26
+OW::This type of recursion is when it's the last action in a method and is easily convereted into iteration::tail::Recursion::Types::DV::4/26
+TF::Bags are required to be sorted::F::Bags::Bags::DV::4/26
+TF::The add method of a bag is void::F::Bags::Method::DV::4/26
+OW::Some difficulties of using a Linked-data bag are: 1)Requires more _____ 2)Removing nodes::memory::Bag::LinkedBag::DV::4/26
+MC::Benefits of LinkedBags are: A)Grow and shrink as needed B)Recycle nodes C)Both A and B::C::Bags::LinkedBags::DV::4/26
+OW::Increasing the size of a bag is called ______::resizing::Bags::Size::DV::4/26
+TF::SortedList may contain nulls::F::SortedList::SortedList::DV:4/26
+OW::To add elements in a sorted list, the add method must use this other method to insert. Otherwise the list will be unsorted::compareTo()::SortedList::Comparing::DV::4/26
+TF::A SortedList works better with sorted data rather than unsorted data::T::SortedList::Data::DV::4/26
+MC::Some Methods of the SortedList are: A)boolean remove(T entry) B)int getPosition(T entry) C)void add(T entry) D)All of the above::D::SortedList::Methods::Dv:4/26
+TF::The getPosition(T entry) returns the indice of the specified value::T::SortedList::Methods::DV::4/26
+TF::A binary search requires sorted data::T::Binary Search::Sorting::DV::4/26
+OW::Which method in a Iterator interface is optional?::remove()::Iterator::Methods::DV::4/26
+TF::If an iterator is in the inner class, they have more access to the data fields and operations are faster::T::Iterator::Inner class::DV::4/26
+OW::A binary search uses the _____ to check if an element is less than or greater than::median::Binary Serach::Traversal::DV::4/26
+MC::What are some advantages of using an iterator rather than a counter? A)No one-off error B)No need for an int counter C)Encapuslates list D) All of the above::D::Iterator::Iterator::DV::4/26
+TF::Radix sort is a comparison-based sort::F::Sorting::Radix Sort::DV::4/27
+MC::For sorting data, it is generally easier to sort data with a(n): A)Pre-process class B) ArrayList C) List class::A::Sorting::Pre-processing::DV::4/27
+TF::Having a pre-processing class allows you to not have to use the Comparable interface in most cases::T::Sorting::Data::DV::4/27
+OW::A ____ sort naturally accommodates parallel computing and intuitively recursive::merge::Sorting::Merge Sort::DV::4/27
+OW::A ____ sort uses a pivot value::quick::Sorting::Quick Sort::DV::4/27
+OW::A _____ queue is used for operating systems::priority::Queues::OS::DV::4/27
+TF::A priority queue can have null values::F::Queues::Priority Queue::DV::4/27
+MC::The Java Virtual Machine uses this data structure:: A)Queue B)Stack C)Heap::B::Stacks::JVM::DV::4/27
+MC::A disadvantage of a stack is that: A)It enforces order of elements B)Can't access varaiables outside the local scope C)CPU has control D)None of the above::B::Stacks::Stacks::DV::4/27
+TF::An advantage of a stack is that enforces a certain order of elements::T::Stacks::Stacks::DV::4/27
+TF::For the most part Hashtable and Hashmap can be used interchangeably::T::HashMaps::Hashing::DV::4/27
+OW::What method is used to get the hash of an object?::hashCode()::Hashing::Hash Code::DV::4/27
+OW::A Hash table is called ____ when all elements are not assigned a value::Hashing::Hash Table::DV::4/27
+TF::Clustering of a Hash Table is a result of no collision::T::HashTable::HashTable Attributes::DV::4/27
+MC::Which data structure isn't considered an associative array? A)Dictionary B)HashMap C)Array D)Map::C::Associative Arrays::Data Structures::DV::4/27
+TF::The root may only be referred to as level 0::F::Trees::Roots::DV::4/27
+OW::A ____ tree can only have at most 2 children::Binary::Trees::Binary Trees::DV::4/27
+MC::Which formula finds the leaf count of a given tree? A)2^(h-1) B)2^h C)(2^h)-1::Trees::Leaves::DV::4/27
+TF::A stack is best used for level-order traversal of a binary tree::F::Trees::Traversal::DV::4/27
+OW::An array or _____ is best used for level-order traversal of a binary tree::queue::Trees::Traversal::DV::4/27
+TF::Edges must enforce direction in a graph::F::Graphs::Edges::DV::4/27
+OW::An ______ matrix contains 0 for false and 1 for true and shows that two vertices are connected by an edge::adjacency::Graphs::Matrix::DV::4/27
+TF::A vertice can be weighted::F::Graphs::Vertices::DV::4/27
+OW::A _____ sort retrieves linear order of vertices based on their dependencies of a graph::topological::Graphs::Sorts::DV::4/27
+MC::A graph is best used for: A)Showing relationships between entities B)Showing direction C)A graph isn't useful at all::A::Graphs::Graphs::DV::4/27
+OW::Operation systems use _____ and priority queues::heaps::Heaps::OS::DV::4/27
+TF::A min-heap is when the root node has the maximum value::F::Heaps::Min-heap::DV::4/27
+OW::Inserting an entry into a heap using a swap requires you to place the value at the ____ level of heap::bottom::Heaps::Inserting::DV::4/27
+TF::When adding an entry into a heap using a swap, you must increment the lastIndex::T::Heaps::Index::DV::4/27
+MC::AVL trees are best used for: A)Heaps B)data analysis C)graphs D)adding data::B::BST::AVL Trees::DV::4/27
+TF:: To be able to compare objects classes need to be in the same package ?:: false:: OO Programming:: package access:: AN::4/6
+MC::Declaring a variable private gives the variable what kind of  what kind of access ? a)class access,b) package access, c)public access::a)::OO Programming::Encapsulation::AN::4/6
+MC::Declaring a variable protected gives you this kind of access? :: a)class access,b) package access, c)public access :: b)::OO Programming::variable scope :: AN::4/6
+OW::____is a statement of the condition that must be true before a method begins execution:: precondition::OO Programming::specifying methods::AN::4/7. 
+OW::____is a statement of the condition that must be true after  a method completes execution:: postcondition::prelude::specifying methods::AN::4/7. 
+OW::___ is one of the design principles of OOP. :: Encapsulation::OO Programming:: prelude:: AN::4/7
+TF:: A bag and a set can both can both have duplicates::F::Bags and Sets:: Bag::AN::4/7. 
+OW:: Using methods with the same name but different signatures is a form of ___ :: polymorphism::Recursion::polymorphism::AN::4/7. 
+TF::  all members of  a linked list contain information about the head of the list::F::Recursion::Chapter 3::AN::4/7. 
+TF:: in a doubly linked chain nodes can be traversed in either directions:: T::Stacks & queues::Chapter 11::AN::4/7
+TF:: A linked list  supports random access::F::Stacks & queues::Chapter 16::AN::4/7
+OW:: the acronym ____ describes the data order for stacks::FILO:: Stacks & queues::Chapter 5::AN::4/7
+OW:: the acronym ____ describes the data order for queues::FIFO::  Stacks & queues::Chapter 5::AN::4/7
+OW:: To be able to use  the compareto  interface. Objects need to be of this type :: generics::Generics :: chapter 2::AN::4/6
+TF:: The method peek() lets you look at any objects on a stack without removing it:: false:: Stacks & queues::Chapter 5::AN::4/7
+TF:: In a sorted list the median can be obtained by the operation list.getLength()/2. :: T:: Lists::   Chapter 16:: AN::4/7. 
+OW::___ is the time complexity  for accessing any objects of a sorted list:: O(1)::Complexity & Efficiency::Chapter 16::AN::4/7
+TF:: Collision in a hash table is when when two values have the same index? ::T::Assoc Arrays / Hashing::Chapter 21::AN::4/7
+OW:: a ___  function takes a search key and produces the integer index of an element that is suitable for a hash table:: Hash:: Assoc Arrays / Hashing:: chapter 21:: AN::4/7/ 
+OW:: a ___ hash function maps each search key into a different integer that is suitable as an index to the hash table:: perfect:: Assoc Arrays / Hashing::chapter 21::AN::4/7
+OW:: In a ___, traversal, We visit the root before we visit the rootÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s subtrees. :: preorder::Trees:: Chapter 23::AN::4/17 
+OW:: When searching on an unsorted chain, we use the __  method to see if a chain has an element.:: contains :: Binary Search:: Searching::: AN::4/17
+TF:: Tail recursion occurs when the last action performed by a recursive method is a recursive call:: T:: Recursion::Tail recursion::AN::4/17
+OW:: A sequences in which a number is a sum of the previous two numbers is also called the __ sequence:: Fibonacci:: Recursion :: recursion :: AN::4/17
+TF:: the question mark is used to represent an unknown class type and is referred to as wildcad:: True::  Generics ::Java Interlude 3 :: AN:: 4/17
+TF:: During and insertion sort and array entry moves to an adjacent location :: T::SortedList::Chapter 8:: AN:: 4/17
+TF:: The root of a tree may be referred to as level 0 or 1:: T:: Trees::Chapter 23::AN::4/17
+OW:: When each node in  a binary tree has two subtrees whose heights are exactly the same, the tree is said to be completely __ :: Balanced::  Heaps /Balanced search trees::Chapter 23:: AN:: 4/17
+TF:: in defining a  traversal, or Iteration of a tree , we can visit, or process, each data items more than once. ::F:: Trees::Chapter 23:: AN::4/17
+TF::Traversal of a graph begins at the origin vertex:: T::Graphs::Chapter 28::AN::4-21
+OW:: The order of the vertices in a graph is called a ____ order::topological ::Graphs:: Chapter 28:: AN::4-21 
+OW:: two vertices are __ in an undirected graph if they are joined by an edge :: adjacent:: Graphs:: Chapter 28::AN::4-21 
+OW:: A graph is  said to be __ if it has relatively few edges:: sparse:: Graphs::chapter 28:: AN::4-21 
+OW:: A graph is  said to be__ if it has many edges:: dense::  Graphs::chapter 28:: AN::4-21 
+TF:: in an ADT tree with parent-child hierarchical relationships, the root is ancestor to all other nodes::T::Graphs ::Chapter 28:: AN::4-21
+TF:: a sentinel can be used to to watch for a specific index value when using an array to represent a heap:: T:: Heaps / balanced search trees ::Chapter 26:: AN ::4-24 
+TF:: During addition of a new entry to a 2-3 tree, the first node that splits a leaf already contains two entries :: T:: Heaps / balanced search trees::Chapter 27:: AN:: 4-24
+TF:: An AVL tree is a self balancing tree:: T:: Heaps / balanced search trees::Chapter 27::  AN ::4-24
+TF:: The time complexity for an AVL tree is O(log n):: T:: Heaps / balanced search trees::Chapter 27:: AN:: 4-24
+TF :: A class is able to extend multiple classes :: False :: OO Programming :: Inheritence :: MJH :: 4/30
+OW :: What does a abstract class normally have that an interface cannot? :: Methods :: OO Programming :: Inheritence :: MJH :: 4/30
+TF :: An interface is able to implement another interface :: True :: OO Programming :: Inheritence :: MJH :: 4/30
+TF :: If an abstract class extends another abstract class, then the abstract sub-class must define the abstract methods of the parent :: False :: OO Programming :: Inheritence :: MJH :: 4/30
+MC :: If stored as a parent, what statement can test whether a child is of a specific type? a) istype  b) typeof c) instanceof :: C :: OO Programming :: Detecting subclasses :: MJH :: 4/30
+TF :: You can use the < and > operators to compare generics :: False :: Generics :: Comparison :: MJH :: 4/30
+OW :: A generic that doesn't have to be defined by the class is called a ____ :: Wildcard :: Generics :: Wildcards :: MJH :: 4/30
+TF :: A method is able to return a generic :: True :: Generics :: Use in methods :: MJH :: 4/30
+TF :: A method is able to return a wildcard :: True :: Generics :: Use in methods :: MJH :: 4/30
+MC :: Which can be extended? A) Generics  B) Wildcards  C) Both  D) Neither :: C :: Generics :: Type Parameters :: MJH :: 4/30
+MC :: Big-Omega notation describes the _____-case senario  a) best  b) worst  c) average :: A :: Complexity & Efficiency :: Big-O :: MJH :: 4/30
+MC :: Big-O notation describes the _____-case senario  a) best  b) worst  c) average :: B :: Complexity & Efficiency :: Big-O :: MJH :: 4/30
+MC :: Big-Theta notation describes the _____-case senario  a) best  b) worst  c) average :: C :: Complexity & Efficiency :: Big-O :: MJH :: 4/30
+OW :: If the efficiency of a program is n * (n^2 - n), what is the Big-O notation? :: O(n^3) :: Complexity & Efficiency :: Big-O :: MJH :: 4/30
+TF :: Using only the Big-O notation, it is possible to figure out how long a computer will process a task :: False :: Complexity & Efficiency :: Measuring Efficiency :: MJH :: 4/30
+TF :: LinkedList is faster at accessing elements than ArrayList :: False :: Lists :: LinkedList vs ArrayList :: MJH :: 4/30
+TF :: LinkedList is faster at deleting the first element than ArrayList :: True :: Lists :: LinkedList vs ArrayList :: MJH :: 4/30
+TF :: LinkedList is faster at adding elements than ArrayList :: True :: Lists :: LinkedList vs ArrayList :: MJH :: 4/30
+TF :: When expanding a LinkedList, you need to copy elements to a new LinkedList :: False :: Lists :: LinkedList :: MJH :: 4/30
+OW :: The add(Object o) method of the List interface returns what data type? :: Boolean :: Lists :: ADT List :: MJH :: 4/30
+OW:: a __ is a node without children in a tree data structure:: leaf::Trees:: chapter 23:: AN::5/1
+TF:: to  determine the height of a tree, we count the sum of the longest path from a leaf to the tree:: T::Trees:: Chapter 23:: AN ::5/1
+TF::In a Binary Tree, the length of a path is the number of connections in an edge:: T:: Trees::AN::5/1
+TF:: In a binary tree a singleton is a Tree with 1 node:: T:: Trees :: Chapter 23:: AN::5/1
+TF:: In a Min-Heap the time complexity of a search is O(1) :: T::  Heaps/ Balanced search trees:: Chapter 26:: AN:: 5/1
+TF:: In a Max-Heap the time complexity of a search is O(1) :: T::  Heaps/ Balanced search trees:: Chapter 26:: AN:: 5/1
+TF:: In a Max-Heap child nodes are smaller than the root of any sub-tree:: T:: Heaps/ Balanced search trees:: Chapter 26:: AN::5/1
+TF:: In a Min-Heap child nodes are greater than the root of any sub-tree:: T:: Heaps/ Balanced search trees:: Chapter 26:: AN::5/1
+TF:: graphs can be used to describe relationships between entities:: T:: Graphs::Chapter 28:: AN::5/1
+TF:: an attribute of a graph is that it may exist with another graph as a subgraph:: T::  Graphs::Chapter 28:: AN::5/1
+TF:: A connected graph has a path between every distinct vertices:: T:: Graphs::Chapter 28:: AN::5/1
+TF:: a graph is said to be directed and completed if each vertex pair has two directed edges:: T:: Graphs::Chapter 28:: AN::5/1
+TF:: an Undirected graph can be connected:: T::  Graphs::Chapter 28:: AN::5/1
+TF:: an Undirected graph can be complete:: T::  Graphs::Chapter 28:: AN::5/1
+TF:: an Undirected graph can be  disconnected:: T::  Graphs::Chapter 28:: AN::5/1 
+OW:: if a path from one vertex to another returns to the vertex at which it began it is said to have a ___::Cycle:: T:: Graphs:: Chapter 28:: AN::5/1
+TF:: in a hash table a key can be of any data  type:: T:: Assoc arrays/Hashing:: Chapter 21:: AN::5/1
+TF:: A hash is said to be perfect if all the ids are unique:: T::Assoc arrays/Hashing:: Chapter 21:: AN::5/1
+TF::Collision occur in a hash when multiple values map to the same index:: T:: Assoc arrays/Hashing:: Chapter 21:: AN::5/1
+TF:: the load factor of a hash table is the ratio of the elements in the table to the size of the table. ::T:: Assoc arrays/Hashing:: Chapter 21:: AN::5/1
+TF:: Dynamic hashing allows a table to grow or shrink in size without the expense of rehashing:: T:: Assoc arrays/Hashing:: Chapter 21:: AN::5/1
+OW :: _____ is when a function calls itself :: Recursion :: Recursion :: Defining :: MJH :: 5/1
+TF :: It is always more efficient to use an iterative method than a recursive method :: False :: Recursion :: Recursion :: MJH :: 5/1
+MC :: The point where a recursive method is able to directly return an answer is called the  a) termination line  b) end point  c) base case :: C :: Recursion :: Defining :: MJH :: 5/1
+TF :: Recursive methods always call themselves :: False :: Recursion :: Recursion :: MJH :: 5/1
+OW :: The Fibonacci sequence is the most famous example of _____ :: Recursion :: Recursion :: Recursion :: MJH :: 5/1
+MC :: It is more efficient for a bag to store values in a(n)  a) ArrayList  b) LinkedList  c) no difference :: A :: Bags & Sets :: Bags :: MJH :: 5/1
+OW :: The ADT Bag and Set datatypes are useful if you want to always get _____ entries :: Random :: Bags & Sets :: Use of :: MJH :: 5/1
+MC :: The difference between a Bag and a Set is that  a) Bags allow for duplicates  b) Sets can be searched  c) both  d) neither :: A :: Bags & Sets :: Differences :: MJH :: 5/1
+TF :: Sets sort their data :: False :: Bags & Sets :: Sets :: MJH :: 5/1
+OW :: Though the bag ADT is characterized by the fact that withdrawing from the bag is random, there are still two functions that need to be able to search the bag. One of these is contains(), and the other is _____(). (Hint: it modifies the bag.)  :: remove :: Bags & Sets :: ADT Bag :: MJH :: 5/1
+TF :: A SortedList will accept null values :: False :: SortedList :: ADT SortedList :: MJH :: 5/1
+OW :: The 3 SortedList methods changed from List are _____(), getPosition(), and add() :: remove :: SortedList :: ADT SortedList :: MJH :: 5/1
+OW :: The 3 SortedList methods changed from List are remove(), _____(), and add() :: getPosition :: SortedList :: ADT SortedList :: MJH :: 5/1
+OW :: The 3 SortedList methods changed from List are remove(), getPosition(), and _____() :: add :: SortedList :: ADT SortedList :: MJH :: 5/1
+MC :: Which are valid outputs of SortedList's getPosition method? a) -1  b) 0  c) -5  d) all of the above :: D :: SortedList :: ADT SortedList :: MJH :: 5/1
+OW :: In order to be sorted, a list's elements need to implement _____ :: Comparable :: Sorting :: Conditions of :: MJH :: 5/2OW :: The efficiency of a binary search is O(___) :: log(n) :: Binary Search / Iterators :: Binary Search :: MJH :: 5/1
+TF :: Binary searches are possible on unsorted data :: False :: Binary Search / Iterators :: Binary Search :: MJH :: 5/2
+TF :: Iterators are able to have data removed :: True :: Binary Search / Iterators :: Iterators :: MJH :: 5/2
+TF :: Iterators are able to have data added :: False :: Binary Search / Iterators :: Iterators :: MJH :: 5/2
+TF :: ListIterators are able to return the index numbers of the next and previous elements :: True :: Binary Search / Iterators :: Iterators :: MJH :: 5/2
+MC :: Radix sorts start by looking at the _____ digit of each element  a) left  b) right  c) neither :: B :: Sorting :: Radix sort :: MJH :: 5/2
+TF :: Shell sorts work best with large data :: False :: Sorting :: Shell sort :: MJH :: 5/2
+OW :: A radix sort has an efficiency of O(___) :: n :: Sorting :: Radix sort :: MJH :: 5/2
+MC :: A radix sort puts elements into ___ buckets  a) 10  b) 8  c) any number  d) none of the above :: C :: Sorting :: Radix sort :: MJH :: 5/2
+OW :: What is the term for how a queue orders data? (acronym) :: FIFO :: Stacks and Queues :: Queues :: MJH :: 5/2
+OW :: A list that will only return the oldest element is called a _____ :: queue :: Stacks and Queues :: Queues :: MJH :: 5/2
+OW :: A list that will only return the newest element is called a _____ :: stack :: Stacks and Queues :: Stacks :: MJH :: 5/2
+OW :: The expression '12+3*' is an example of a _____ expression :: postfix :: Stacks and Queues :: Prefix expressions :: MJH :: 5/2
+OW :: The expression '123+*' evaluates to :: 5 :: Stacks and Queues :: Prefix expressions :: MJH :: 5/2
+OW :: A hash table is a type of _____ :: Dictionary :: Assoc Arrays / Hashing :: Assoc Arrays :: MJH :: 5/2
+OW :: Hashing turns Strings into a(n) _____ :: int :: Assoc Arrays / Hashing :: Hashing :: MJH :: 5/2
+OW :: A _____ is used to make a password harder to reverse engineer :: salt :: Assoc Arrays / Hashing :: Hashing :: MJH :: 5/2
+OW :: A class should override the hashCode method of a hash table when it overrides the _____ method :: equals :: Assoc Arrays / Hashing :: Hash Table :: MJH :: 5/2
+OW :: The symbol for shifting the bits of a key is :: >> :: Assoc Arrays / Hashing :: Folding :: MJH :: 5/2
+OW :: A _____ is a data structure with hierarchical order :: tree :: Trees :: Defining :: MJH :: 5/2
+MC :: Which binary tree search method searches the node's data between its decendents a) preorder  b) inorder  c) postorder  d) level-order :: B :: Trees :: Searching :: MJH :: 5/2
+MC :: Which binary tree search method searches the node's data after its decendents a) preorder  b) inorder  c) postorder  d) level-order :: C :: Trees :: Searching :: MJH :: 5/2
+OW :: Preorder, inorder, and postorder searches are all types of _____ traversals :: Depth-first :: Trees :: Searching :: MJH :: 5/2
+TF :: A level-order traversal visits nodes from right to left :: False :: Trees :: Searching :: MJH :: 5/2
+OW :: A _____ is a heap where each node is greater than or equal to its decendants :: maxheap :: Heaps / Balanced Search Trees :: Heaps :: MJH :: 5/2
+OW :: For heaps, a _____ tree is full to its next-to-last level, and its leafs on the last level are filled in from left to right :: complete :: Heaps / Balanced Search Trees :: Heaps :: MJH :: 5/2
+TF :: The most common implementation of a heap uses a LinkedList :: False :: Heaps / Balanced Search Trees :: Heaps :: MJH :: 5/2
+TF :: An AVL tree won't rebalance itself when nodes are removed :: False :: Heaps / Balanced Search Trees :: AVL Trees :: MJH :: 5/2
+TF :: A 2-3 tree is usually shorter than a binary search tree :: True :: Heaps / Balanced Search Trees :: 2-3 Trees :: MJH :: 5/2
+MC :: A graph without loops is  a) straight  b) acyclic  c) a tree  d) b and c :: D :: Graphs :: Terminology :: MJH :: 5/2
+OW :: A graph is _____ if it has relatively few edges :: sparse :: Graphs :: Terminology :: MJH :: 5/2
+TF :: Every use of the ADT Tree is also a graph :: True :: Graphs :: Defining :: MJH :: 5/2
+TF :: The ADT graph is different from other ADTs because you don't add, remove, or retrieve components :: True :: Graphs :: ADT Graph :: MJH :: 5/2
+TF :: A topological order is not possible if a graph has a cycle :: True :: Graphs :: ADT Graph :: MJH :: 5/2
+TF :: A Constructor is needed when creating Objects :: True :: OO Programming :: Objects :: DL :: 5/3
+OW :: Given class Dog, how would you complete this instance of an object, Dog dog = new _____ :: Dog() :: OO Programming :: Objects :: DL :: 5/3
+TF :: Can a class be considered as a blue print? :: True :: OO Programming :: Classes :: DL :: 5/3
+TF :: For an Interface to be implemented, You must implement the interface's methods:: True :: OO Programming :: Interface :: DL :: 5/3
+OW :: Given class Dog, how would you implement interface AnimalAttributes :: implements AnimalAttributes :: OO Programming :: Interface :: DL :: 5/3
+MC :: When it comes to Generics, what letter is usually used? A) T B) K C) V D) none :: A :: Generics :: Generics :: DL :: 5/3
+TF :: T is usually an object :: True :: Generics :: Generic :: DL :: 5/3
+TF :: T anEntry can usually take in any Object :: True :: Generics :: Generics :: DL :: 5/3
+MC :: Why would a programmer use Generics? A)Object are easier to use B) The Programmer does not know what Type of Object C) A and B :: B :: Generics :: Generics :: DL :: 5/3
+TF :: Class name must have <T> next to it for the user to be able to use Generics. IE Dogs<T> :: True :: Generics :: Generics :: DL :: 5/3
+TF :: A nested loop of 2 for loops is a Quadratic case :: True :: Complexity and Efficiency :: Big O :: DL :: 5/3
+TF :: for(i = n; i >= 1; i/2){Operation} is a Logarithmic case :: True :: Complexity and Efficiency :: Complexity :: DL :: 5/3
+MC :: for(int i = 0; i < n; i++){Operation} is a A) Linear Case B) Quadratic Case C) Logarithmic Case :: A :: Complexity and Efficiency :: Complexity :: DL :: 5/3
+TF :: Memory and CPU are factors in determining algorithmic performance :: True :: Complexity and Efficiency :: Efficiency :: DL :: 5/3
+TF :: O(n^2) is a Quadratic Case :: True :: Complexity and Efficiency :: Complexity :: DL :: 5/3
+TF :: You should always use Generics with Link List :: True :: List :: Link List :: DL :: 5/3
+TF :: List is an Interface :: True :: List :: Link List :: DL :: 5/3
+TF :: List methods are similar to that of ArrayList :: True :: List :: List :: DL :: 5/3
+MC :: What is used to add an element to a List A) add(anEntry) B) get(index)) C) both :: A :: List :: List :: DL :: 5/3
+OW :: What is the difference between List and ArrayList? A)List an Interface B) ArrayList is not generic and is specific C) Both :: C :: List :: List :: DL :: 5/3
+OW :: What is another term for information hiding? :: encapsulation :: OO Programming :: information :: MH :: 5/1
+MC :: What is the term for a class that inherits properties from a parent class? a) child b) object c) sibling d) driver :: a :: OO Programming :: inheritance :: MH :: 5/1
+TF :: An abstract class is a blueprint for another class(es)? T/F :: true :: OO Programming :: abstraction :: MH :: 5/1
+MC :: How does a class use an interface as its blueprint? a) inheritance b) force c) implements d) public void :: c :: OO Programming :: interface :: MH :: 5/1
+OW :: The best way to save time when programming is by ______ classes :: reusing :: OO Programming :: code reuse :: MH :: 5/1
+OW :: T V K are what variable type? :: generic :: Generics :: variables :: MH : 5/1
+TF :: Are Generics useful for code reuse? T/F :: True :: Generics :: code reuse :: MH :: 5/1
+MC :: What is the most common used type when creating generics? a) B b) I c) J d) T :: d :: Generics :: variables :: MH :: 5/1
+TF :: Generics are not to be used as a placeholder variable type. T/F :: False :: Generics :: variables :: MH :: 5/1
+OW :: You need an _____ in order to establish a generic type. :: identifier :: Generics :: variables :: MH :: 5/1
+TF :: A Big O of O(n log n) more efficient than O(n). T/F :: false :: Complexity & Efficiency :: Big O :: MH :: 5/1
+MC :: Bubble Sort has a worst case Big O of: a) O(n log n) b) O(1) c) O(n^2) d) O(2^n) :: c :: Complexity & Efficiency :: Big O :: MH :: 5/1
+MC :: for( if{ } ) has a worst case Big O of: a) O(1) b) O(n) c) O(n^2) d) O(log n) :: b :: Complexity & Efficiency :: Big O :: MH :: 5/1
+OW :: When estimating Big O you want to use the _____ case. :: worst :: Complexity & Efficiency :: Big O :: MH :: 5/1
+TF :: Big O is the measure of the storage space needed for your program. T/F : false :: Complexity & Efficiency :: Big O :: MH :: 5/1
+MC :: Which of the following is not a viable use for a list: a) products b) chores c) phone numbers d) none of the above :: d :: Lists :: chapter 12 :: MH :: 5/1
+OW :: ___ List is a interface in java. :: adt :: Lists :: adt :: MH :: 5/1
+TF :: Java has a premade List class. T/F :: false :: Lists :: list interface :: MH :: 5/1
+MC :: Which of the following are not a method in List Interface: a) grab b) add c) removeAll d) contains :: a :: Lists :: docs.oracle.com :: MH :: 5/1
+OW :: ADT List interface is an extention of java ________. :: collections :: Lists :: list interface :: MH :: 5/1
+MC :: When a recursive method misses it's base case it is called _______ recursion. a) continual b) repetitive c) infinite d) expanding :: c :: Recursion :: Chapter 7 :: MH :: 5/1
+OW :: The process of using a method to call itself continually until a condition is met is called _______. :: recursion :: Recursion :: Chapter 7 :: MH :: 5/1
+TF :: Too many recursive calls can cause a stack overflow. T/F :: true :: Recursion :: Chapter 7 :: MH :: 5/1
+OW :: A ______ function is one that calls itself :: recursion :: Recursion :: Chapter 7 :: MH :: 5/1
+TF :: Recursion is when a function calls itself. T/F :: true :: Recursion :: Chapter 7 :: MH :: 5/1
+MC :: ADT Bag can be created with which collection type(s): a) array b) graph c) linked list d) both a and b e) both a and c :: e :: Bags & Sets :: Chapter 3 :: MH :: 5/1
+OW :: In order to count the number of times an entry appears in a linked list bag you must _____ the chain of nodes. :: traverse :: Bags & Sets :: chapter 3 :: MH :: 5/1
+TF :: If using linked list for ADT Bag you have to check capacity and resize as needed. T/F :: false :: Bags & Sets :: Chapter 3 :: MH :: 5/1
+TF :: A Set is like ADT Bag except that all values are unique. T/F :: true :: Bags & Sets :: oregonstate.edu :: MH :: 5/1
+MC :: A Set can compare itself to another set by using: a) union b) intersection c) difference d) all of the above :: d :: Bags & Sets :: Chapter 3 :: MH :: 5/1
+MC :: Sorted Lists can use which variable types? a) string b) integer c) float d) all of the above :: d :: SortedList :: Chapter 16 :: MH :: 5/2
+OW :: A sorted list cannot store ____ entries :: null :: SortedList :: Chapter 16 :: MH :: 5/2
+TF :: ADT Sorted List can have a linked list or array list implementation. T/F :: true :: SortedList :: Chapter 16 :: MH :: 5/2
+MC :: The add method for ADT sort has a Big O of ____ ? a) O(1) b) O(n^2) c) O(n) d) O(log n) :: c :: SortedList :: Chapter 16 :: MH :: 5/2
+OW :: Sorted List will not allow you to _____ an entry with another entry :: replace :: SortedList :: Chapter 16 :: MH :: 5/2
+MC :: The term divide and conquer is used to describe what? a) binary search b) iterator c) merge sort d) none of the above :: a :: Binary Search / Iterators :: class notes :: MH :: 5/2
+OW :: A ______ searches through a list one by one for information :: iterator :: Binary Search / Iterators :: class notes :: MH :: 5/2
+TF :: Iterators have no exception handling. T/F :: false :: Binary Search / Iterators :: class notes :: MH :: 5/2
+MC :: The worst case Big O for binary search is what? a) O(n) b) O(log n) c) O(1) d) O(nlog n) :: b :: Binary Search / Iterators :: big-o cheat sheet :: MH :: 5/2
+OW :: In List Iterator the hasNext method returns a _____ . :: boolean :: Binary Search / Iterators :: Java interlude 5 :: MH :: 5/2
+OW :: A Recursion is a method calls ____ :: itself :: Recursion :: Recursion :: DL :: 5/3
+TF :: You should use Recursion when the problem has already been proven mathematically :: True :: Recursion :: Recursion :: DL ::5/3
+MC :: The recurrence relation of T(n) = T(n/2) + O(1) is what kind of Algorithm A)Binary Search B)Sequential C)Tree Traversal :: A :: Recursion :: Recursion Efficiency :: DL :: 5/3 
+MC :: The recurrence relation of T(n) = T(n-1) + O(1) is what kind of Algorithm A)Binary Search B)Sequential C)Tree Traversal :: B :: Recursion :: Recursion Efficiency :: DL :: 5/3
+TF :: A fractal is a form of recursion :: True :: Recursion :: Fractals :: DL :: 5/3 
+TF :: Bag is a collection :: True :: Bag & Sets :: Bag :: DL :: 5/4
+TF :: Bag can store both Arrays and List/Linked List :: True :: Bag & Sets:: Bag :: DL :: 5/4
+MC :: an allocated Array must be A) Object type B)String Type C)Integer Type :: A :: Bag & Sets :: Bag :: DL :: 5/4
+TF :: For a Bag to expand, A temporary is needed :: True :: Bag & Sets :: Bag :: DL :: 5/4
+MC :: When expanding, What is the Temporary bag is used for? A)Hold the copies of the original B)Tempory will become bag C)to Destory the original :: A :: Bags & Set :: Bag :: DL :: 5/4
+TF :: Sorted List can retrieve values by percentile :: True :: Sorted List :: Sorted List :: DL :: 5/4
+TF :: Sorted List speeds up Searches and sorts :: True :: Sorted List :: Sorted List :: DL :: 5/4
+TF :: For the most efficient use, Sorted List needs a pre-sorted List :: True :: Sorted List :: Sorted List :: DL :: 5/4
+TF :: Sorted List and List have the same methods with the exception of remove(T Entry), getPosition(T Entry) and add(T Entry) :: True :: Sorted List :: Sorted Methods :: DL : 5/4
+MC :: getPosition returns a ______ Number if an entry is absent A)Negative B)Double C)Positive :: A :: Sorted List :: Methods :: DL : 5/4
+MC :: What is the best case for a Sequential Search of an Unsorted Array? A)O(1) B)OLogN C) O(n^2) :: A :: Binary Search/Iterators :: Efficiency :: DL :: 5/4
+TF :: When it comes to Sequential search, both Sort and Unsorted arrays have the same Best case :: True :: Binary Search/Iterators :: Efficiency :: DL :: 5/4
+MC :: Iterators afford what type of methods of traversal? A) Standardized B)Unique C) Search :: A :: Binary Search/Iterators :: Efficiency :: DL :: 5/4 
+TF :: A "Cursor" resides between the entry and previously returned and the next :: True :: Binary Search/Iterators :: Iterator :: DL :: 5/4
+TF :: Selection sort has a best case of O(n^2) :: True :: Sorting :: Sort efficeincy :: DL :: 5/4
+TF :: Selection sort does not require a pre-sorted List :: True :: Sorting :: Selection Sort :: DL :: 5/4
+TF :: Insertion sort requires an already sorted List :: True :: Sorting :: Insertion Sort :: DL :: 5/4
+TF :: Shell sort is an improved version of Insertion Sort :: True :: Sorting :: Shell Sort :: DL :: 5/4
+TF :: Merge Sort Splits the list and half and sorts the "Sub" Arrays and split those in half, eventually adding them all back into a single list :: True :: Sorting :: Merge Sort :: DL :: 5/4
+TF :: When it comes to stacks, what goes in first comes out last :: True :: Stacks & Queues :: Stacks :: DL :: 5/4
+MC :: Which uses FIFO (First In First Out) A)Stack B)Queues :: B :: Stacks & Queues :: Queues :: DL :: 5/4
+TF :: a Enqueue adds element to the rear of a queue :: True :: Stacks & Queues :: Queues :: DL :: 5/4
+TF :: Dequeue removes and return from the back of the Queue :: False :: Stack & Queues :: Queues :: DL :: 5/4
+OW :: _____ lets you see info about elements in the stack :: peek :: Stack & Queues :: Stack :: DL :: 5/4
+TF :: Associative Arrays, also known as dictionarys, usually takes in two Objects :: True :: Assoc arrays / Hashing :: Associative Arrays :: DL :: 5/4
+TF :: A dictionary requires a key :: True :: Assoc arrays / Hashing :: Associative Arrays :: DL :: 5/4
+TF :: A Key can be any data type :: True :: Assoc arrays / Hashing :: Associative Arrays :: DL :: 5/4
+TF :: Compression or compress reduces the range of a hash table :: True :: Assoc arrays / Hashing :: Hash :: DL :: 5/4
+TF :: Collision is when multiple values are map to the same index :: True :: Assoc arrays / Hashing :: Hash :: DL :: 5/4
+MC :: What is the root refered to as? A) level 0 B) Level 1 C) Both :: C :: Trees :: Tree : DL :: 5/4
+TF :: Leaves are nodes without Children :: True :: Trees :: Leaves :: DL :: 5/4
+TF :: the path(s) from root to any node is unique :: True :: Tree :: Tree :: DL :: 5/4
+TF :: Trees are considered equal if they have the same structure, data, and order :: True :: Trees :: Tree :: DL :: 5/4
+MC :: Binary Tree can have a max of ___ child per node A)2 B)3 C)4 :: A :: Tree :: Binary Tree :: DL :: 5/4
+TF :: A graph is used to describe relationships between entities :: True :: Graphs :: Graph Application :: DL :: 5/4
+MC :: Which of these are a General Attributes of Graphs A) Subgraph B)GUI C)Integer :: Graphs :: General Attributes of Graphs :: DL :: 5/4
+TF :: A connected graph has a path between every pair of distinct verticies :: True :: Graphs :: Connected Graph :: DL :: 5/4
+TF :: An undirected graph cant be connected or completed :: False :: Graphs :: Undirected Graphs :: DL :: 5/4
+MC :: A graph is considered sparse and has a _____ Complexity A)O(n) B) O(n^2) C) O(Logn) :: A :: Graphs :: Efficiency :: DL :: 5/4
+TF :: A root node thath has a max value is a Max Heap :: True :: Heaps/ Balanced Trees :: Heaps :: DL :: 5/4
+MC :: When a root has the minimum value it is considered as a A)Min Heap B)Average Heap C)Neither :: A :: Heaps/ Balanced Trees :: Heaps :: DL :: 5/4
+TF :: Application of heaps includes heap-sort and priority queues :: True :: Heaps/ Balanced Trees :: Heaps :: DL :: 5/4
+TF :: A AVLE tree Auto  Rebalances nodes when unbalanced :: True :: Heaps/ Balanced Trees :: Balance Search Tree :: DL :: 5/4
+TF :: Right NOtation is used for addition at left subtree :: True :: Heaps/ Balanced Trees :: Balance Search Tree :: DL :: 5/4-21
+TF::The best case for a binary search tree is O(n)::F::binary search trees::efficincy::KPN::5/3
+MC::A tree is said to be balanced when: a) Every node except the last level connects 2 nodes b) It has an even amount of nodes c) Two sub-trees are of the same height d) All of the above::c::Trees::Binary Trees::KPN::5/3
+TF::The root of a tree is on the last level::F::Trees::Trees::KPN::5/3
+OW::A node in a tree that has no children is called a _____::Leaf::Trees::Leaves::KPN::5/3
+TF::A tree can have one node::T::Trees::Singleton::KPN::5/3
+TF::In a hash table the key of a key-value pair is stored into the table::F::Hashing::hash table::KPN::5/3
+OW::When hashing a password it is usually a good idea to add a _____ to the password for extra protection::salt::Hashing::salting passwords::KPN::5/3
+TF::It is possible for a heap's size to be unlimited::T::Heap::stack vs heap::KPN::5/3
+OW::The term for removing an element from a stack is _____::pop::Stacks::Stack terminology::KPN::5/3
+MC::A stack is a _____ data structure a) LIFO b) FILO c) FIFO d) LILO::a::Stacks::Stack terminology::KPN::5/3
+OW::The postfix notation of 6 + 2 * 4 is _____::06+,24*::Stacks::Postfix::KPN::5/3
+TF::In a priority queue if a task is at a low priority it will never be used::F::Queues::Priority Queue::KPN::5/4
+TF::A radix sort is the least efficient sort to use::F::Sorting::Radix Sort::KPN::5/4
+TF::The best case for a merge sort is O(n log n)::T::Sorting::Merge Sort::KPN::5/4
+OW::The sorting method call a _____ sort can be described as a sequence of "interleaved" insertion sorts::Shell::Sorting::Shell Sort::KPN::5/4
+TF::Binary search is best used on a linked list::F::Binary Search/Iterators::Binary Search::KPN::5/4
+TF::Binary search can only work on a list that is sorted::T::Binary Search/Iterators::Binary Search::KPN::5/4
+TF::A sorted list can sort data as it passes it into the list::F::SortedList::SortedList::KPN::5/4
